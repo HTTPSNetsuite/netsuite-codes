@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+	<document>
+		<header>
+			<DocumentType>Purchase Order</DocumentType>
+			<CompanyName><![CDATA[SUPERVALUE INC.]]></CompanyName>
+			<PostDate>03/05/2015</PostDate>
+			<PostTime>19:15:07</PostTime>
+			<VendorName><![CDATA[SANITARY CARE PRODUCTS ASIA INC]]></VendorName>
+			<VendorCode>190192</VendorCode>
+			<TermsDiscount><![CDATA[30 Days Due Net]]></TermsDiscount>
+			<SiteCode>0003</SiteCode>
+			<SiteName><![CDATA[SVI MAKATI]]></SiteName>
+			<SiteAddress><![CDATA[East Drive,SM Makati Bldg.Ayala Cen MAKATI CITY]]></SiteAddress>
+			<SiteTIN><![CDATA[000-144-976-005 VAT]]></SiteTIN>
+			<DocumentNumber>1018158433</DocumentNumber>
+			<DateEntry>03/05/2015</DateEntry>
+			<DateCancel>03/11/2015</DateCancel>
+			<DateReceipt>03/11/2015</DateReceipt>
+			<ArticleCount>15</ArticleCount>
+<DeliveryMessage><![CDATA[Days until delivery: 6]]></DeliveryMessage>
+		</header>
+		<body>
+			<article>
+				<LineNumber>1</LineNumber>
+				<SKUMatCode>20297946</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[SANICARE-KT JUMBO_TWIN-70PULL2PLY]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502358723</UPC>
+				<BuyQty>4.00</BuyQty>
+				<BuyCost><![CDATA[924.38]]></BuyCost>
+				<BuyUM>CS</BuyUM>
+				<Package>12</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>2</LineNumber>
+				<SKUMatCode>20258751</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[SANICARE-COTTON_BUDS-200 TIPS]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502350031</UPC>
+				<BuyQty>1.00</BuyQty>
+				<BuyCost><![CDATA[1,666.60]]></BuyCost>
+				<BuyUM>CS</BuyUM>
+				<Package>144</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>3</LineNumber>
+				<SKUMatCode>20196265</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[NATURALE-P.TOWEL _INTERFOLDD_1PLY-175S]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502351861</UPC>
+				<BuyQty>1.00</BuyQty>
+				<BuyCost><![CDATA[899.33]]></BuyCost>
+				<BuyUM>CS</BuyUM>
+				<Package>30</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>4</LineNumber>
+				<SKUMatCode>20182665</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[FEMME-INTERFLDED _PTOWEL-1P 175PULL]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502359911</UPC>
+				<BuyQty>11.00</BuyQty>
+				<BuyCost><![CDATA[865.18]]></BuyCost>
+				<BuyUM>CS</BuyUM>
+				<Package>30</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>5</LineNumber>
+				<SKUMatCode>20083204</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[CHEERS-TABLE_NAPKIN _FOLDED -300SHTS]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502359348</UPC>
+				<BuyQty>4.00</BuyQty>
+				<BuyCost><![CDATA[853.79]]></BuyCost>
+				<BuyUM>C15</BuyUM>
+				<Package>15</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>6</LineNumber>
+				<SKUMatCode>20026120</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[FEMME-BATH_TISSUE 2P_150PULLS-24S]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502350437</UPC>
+				<BuyQty>6.00</BuyQty>
+				<BuyCost><![CDATA[787.77]]></BuyCost>
+				<BuyUM>C06</BuyUM>
+				<Package>6</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>7</LineNumber>
+				<SKUMatCode>20020547</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[TISYU-MEGA ROLL _2P500PULLS-10S]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+					<Discount><![CDATA[10.10% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502350895</UPC>
+				<BuyQty>3.00</BuyQty>
+				<BuyCost><![CDATA[1,293.17]]></BuyCost>
+				<BuyUM>C08</BuyUM>
+				<Package>8</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>8</LineNumber>
+				<SKUMatCode>20001378</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[TISYU-BATH_TISC/LESS_2P 160PULLS-10S]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+					<Discount><![CDATA[5.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502359225</UPC>
+				<BuyQty>4.00</BuyQty>
+				<BuyCost><![CDATA[622.93]]></BuyCost>
+				<BuyUM>C18</BuyUM>
+				<Package>18</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>9</LineNumber>
+				<SKUMatCode>20001370</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[TISYU-BATH_TISC/LESS _2P160PULLS-20S]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+					<Discount><![CDATA[5.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502359218</UPC>
+				<BuyQty>1.00</BuyQty>
+				<BuyCost><![CDATA[609.96]]></BuyCost>
+				<BuyUM>C09</BuyUM>
+				<Package>9</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>10</LineNumber>
+				<SKUMatCode>10223961</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[SANICARE-INTRFLDED _P.TOWEL-1P 175PULL]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502351601</UPC>
+				<BuyQty>1.00</BuyQty>
+				<BuyCost><![CDATA[1,292.08]]></BuyCost>
+				<BuyUM>C30</BuyUM>
+				<Package>30</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>11</LineNumber>
+				<SKUMatCode>10223957</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[SANICARE-B. TISSUE _2P_200PULLS-4S]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502351922</UPC>
+				<BuyQty>2.00</BuyQty>
+				<BuyCost><![CDATA[928.92]]></BuyCost>
+				<BuyUM>C24</BuyUM>
+				<Package>24</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>12</LineNumber>
+				<SKUMatCode>10223959</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[SANICARE-BATH_TISSUE 2P_200PULLS-12S]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502351991</UPC>
+				<BuyQty>8.00</BuyQty>
+				<BuyCost><![CDATA[904.64]]></BuyCost>
+				<BuyUM>C08</BuyUM>
+				<Package>8</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>13</LineNumber>
+				<SKUMatCode>10223954</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[SANICARE-B. TISSUE _2P_200PULLS-9S]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502351984</UPC>
+				<BuyQty>1.00</BuyQty>
+				<BuyCost><![CDATA[1,029.10]]></BuyCost>
+				<BuyUM>C12</BuyUM>
+				<Package>12</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>14</LineNumber>
+				<SKUMatCode>10223946</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[SANICARE-B. TISSUE _3P_200PULLS-1S]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502358662</UPC>
+				<BuyQty>1.00</BuyQty>
+				<BuyCost><![CDATA[1,307.78]]></BuyCost>
+				<BuyUM>C96</BuyUM>
+				<Package>96</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+			<article>
+				<LineNumber>15</LineNumber>
+				<SKUMatCode>10223804</SKUMatCode>
+				<ArticleDescription>
+					<Description><![CDATA[FEMME-B. TISSUE_2P 150PULLS-48S]]></Description>
+					<Discount><![CDATA[15.00% *]]></Discount>
+				</ArticleDescription>
+				<UPC>14806502350208</UPC>
+				<BuyQty>13.00</BuyQty>
+				<BuyCost><![CDATA[522.15]]></BuyCost>
+				<BuyUM>C02</BuyUM>
+				<Package>2</Package>
+				<SellUM>PCE</SellUM>
+			</article>
+		</body>
+		<footer>
+			<TotalAmount>*= This SKU is discounted</TotalAmount>
+			<TotalAmount><![CDATA[50,415.19]]></TotalAmount>
+			<ImportantNotification>
+				
+			</ImportantNotification>
+		</footer>
+	</document>
+</xml>

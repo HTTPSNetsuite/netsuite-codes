@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<orders creationDate="2015-04-14" documentId="4502258420" status="ORIGINAL">
+  <buyer>
+    <gln>4806513569241</gln>
+  </buyer>
+  <seller>
+    <gln>4806502358801</gln>
+  </seller>
+  <deliveryLocation>
+    <gln>4806513569241</gln>
+  </deliveryLocation>
+  <deliveryDate>
+    <from>
+      <date>2015-04-15</date>
+    </from>
+  </deliveryDate>
+  <cancelIfNotDeliveredBy>
+    <date>2015-04-20</date>
+  </cancelIfNotDeliveredBy>
+  <notes>Maypajo</notes>
+  <lineItems lineItemNumber="1">
+    <itemId>
+      <gtin>14806502356064</gtin>
+    </itemId>
+    <description>Ever Savers BT 1sx3Ply                                                    CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1219.200</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="2">
+    <itemId>
+      <gtin>14806502356026</gtin>
+    </itemId>
+    <description>Ever Savers BT 4sx1Ply/2Ply                                               CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>644.400</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="3">
+    <itemId>
+      <gtin>14806502350277</gtin>
+    </itemId>
+    <description>Ever Savers Cotton Balls 140s                                             CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1029.600</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="4">
+    <itemId>
+      <gtin>14806502358143</gtin>
+    </itemId>
+    <description>Ever Savers Kitchen Roll Towel 100/75s                                    CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1178.000</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="5">
+    <itemId>
+      <gtin>04806502359911</gtin>
+    </itemId>
+    <description>Femme Interfolded Towel 175 Sheets                                        CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1083.000</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="6">
+    <itemId>
+      <gtin>14806502359447</gtin>
+    </itemId>
+    <description>Jade TableNapkin ValuePrecutFolded 1000s                                  CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>675.000</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="7">
+    <itemId>
+      <gtin>14806502350178</gtin>
+    </itemId>
+    <description>Sanicare Cotton Buds 200 Tips Cans                                        CS2   00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1409.040</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="8">
+    <itemId>
+      <gtin>14806502351717</gtin>
+    </itemId>
+    <description>Tisyu FT Travel Pack 50s                                                  CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>872.100</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="9">
+    <itemId>
+      <gtin>14806502352387</gtin>
+    </itemId>
+    <description>Sanicare Cleansing Wipes 80s                                              CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1938.000</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="10">
+    <itemId>
+      <gtin>14806502351861</gtin>
+    </itemId>
+    <description>Naturale Paper Towel 175Px1Ply                                            CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1128.570</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="11">
+    <itemId>
+      <gtin>14806502160548</gtin>
+    </itemId>
+    <description>Sanicare Cotton Buds 400 Tips                                             CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>2038.320</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+</orders>

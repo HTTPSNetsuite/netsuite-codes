@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<orders creationDate="2015-04-17" documentId="2433121" status="ORIGINAL">
+  <buyer>
+    <gln>4800608880006</gln>
+  </buyer>
+  <seller>
+    <gln>4806502358801</gln>
+  </seller>
+  <deliveryLocation>
+    <gln>4800608880518</gln>
+  </deliveryLocation>
+  <deliveryDate>
+    <from>
+      <date>2015-04-21</date>
+    </from>
+  </deliveryDate>
+  <cancelIfNotDeliveredBy>
+    <date>2015-04-21</date>
+  </cancelIfNotDeliveredBy>
+  <notes>PLEASE ATTACH THIS P.O. TO YOUR SALES INVOIVE.    DELIVER ON OR BEFORE SHIP DATE.                   PLEASE PICK-UP B.O.         /TNX.         CABUYAO</notes>
+  <lineItems lineItemNumber="1">
+    <itemId>
+      <gtin>14806502355081</gtin>
+    </itemId>
+    <description>FLD NAPKN 40S   EVDAY TNPKN FLDED 40S/60</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>810.00</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="2">
+    <itemId>
+      <gtin>04806502359884</gtin>
+    </itemId>
+    <description>AP K TWL 2PLY   EVDAY PTWEL AP KTCHEN 2PLY/40</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1117.60</monetaryAmount>
+    </netPrice>
+  </lineItems>
+</orders>

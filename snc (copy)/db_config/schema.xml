@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="default" defaultIdMethod="native" defaultPhpNamingMethod="underscore">
+  <table name="item" idMethod="native" phpName="Item">
+    <column name="id" phpName="Id" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="purchase_order_id" phpName="PurchaseOrderId" type="INTEGER"/>
+    <column name="upc" phpName="Upc" type="VARCHAR" size="255"/>
+    <column name="qty" phpName="Qty" type="INTEGER"/>
+    <column name="discount" phpName="Discount" type="DOUBLE"/>
+  </table>
+  <table name="purchase_order" idMethod="native" phpName="PurchaseOrder">
+    <column name="id" phpName="Id" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="filename" phpName="Filename" type="VARCHAR" size="255"/>
+    <column name="store" phpName="Store" type="VARCHAR" size="255"/>
+    <column name="is_sync" phpName="IsSync" type="VARCHAR" size="255" defaultValue="0"/>
+    <column name="customer_code" phpName="CustomerCode" type="VARCHAR" size="255"/>
+    <column name="delivery_date" phpName="DeliveryDate" type="DATE"/>
+    <column name="number" phpName="Number" type="VARCHAR" size="255" required="true"/>
+  </table>
+</database>

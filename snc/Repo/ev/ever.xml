@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<orders creationDate="2015-04-21" documentId="4502265523" status="ORIGINAL">
+  <buyer>
+    <gln>4806513569081</gln>
+  </buyer>
+  <seller>
+    <gln>4806502358801</gln>
+  </seller>
+  <deliveryLocation>
+    <gln>4806513569081</gln>
+  </deliveryLocation>
+  <deliveryDate>
+    <from>
+      <date>2015-04-22</date>
+    </from>
+  </deliveryDate>
+  <cancelIfNotDeliveredBy>
+    <date>2015-04-27</date>
+  </cancelIfNotDeliveredBy>
+  <notes>Hermosa                              DELIVER TO RECTO</notes>
+  <lineItems lineItemNumber="1">
+    <itemId>
+      <gtin>14806502358952</gtin>
+    </itemId>
+    <description>Ever Savers BT 12sx2/3ply                                                 CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1143.200</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="2">
+    <itemId>
+      <gtin>14806502350277</gtin>
+    </itemId>
+    <description>Ever Savers Cotton Balls 140s                                             CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1029.600</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="3">
+    <itemId>
+      <gtin>14806502359782</gtin>
+    </itemId>
+    <description>Femme BT 12sx2Ply                                                         CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="4"/>
+    <netPrice>
+      <monetaryAmount>720.000</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="4">
+    <itemId>
+      <gtin>14806502359751</gtin>
+    </itemId>
+    <description>Femme BT 1sx2Ply                                                          CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>744.000</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="5">
+    <itemId>
+      <gtin>14806502359768</gtin>
+    </itemId>
+    <description>Femme BT 4sx2Ply                                                          CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice>
+      <monetaryAmount>732.000</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="6">
+    <itemId>
+      <gtin>14806502352325</gtin>
+    </itemId>
+    <description>Femme KT All-Purpose Twin 75px2Ply                                        CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>912.000</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="7">
+    <itemId>
+      <gtin>14806502359447</gtin>
+    </itemId>
+    <description>Jade TableNapkin ValuePrecutFolded 1000s                                  CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>675.000</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="8">
+    <itemId>
+      <gtin>14806502350017</gtin>
+    </itemId>
+    <description>Sanicare Cotton Buds 108 Tips                                             CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1969.920</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="9">
+    <itemId>
+      <gtin>14806502350031</gtin>
+    </itemId>
+    <description>Sanicare Cotton Buds 200 Tips                                             CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>2086.200</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="10">
+    <itemId>
+      <gtin>14806502350178</gtin>
+    </itemId>
+    <description>Sanicare Cotton Buds 200 Tips Cans                                        CS2   00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1409.040</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="11">
+    <itemId>
+      <gtin>14806502359621</gtin>
+    </itemId>
+    <description>Sanicare KT Regular Twin 2x60 2s                                          CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1068.750</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="12">
+    <itemId>
+      <gtin>14806502350123</gtin>
+    </itemId>
+    <description>Tisyu BT 4sx1/2Ply                                                        CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>963.300</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="13">
+    <itemId>
+      <gtin>14806502359225</gtin>
+    </itemId>
+    <description>Tisyu BT Coreless 10sx2Ply                                                CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice>
+      <monetaryAmount>820.800</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="14">
+    <itemId>
+      <gtin>14806502359706</gtin>
+    </itemId>
+    <description>Tisyu BT Coreless 2sx2Ply                                                 CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>855.000</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="15">
+    <itemId>
+      <gtin>14806502352639</gtin>
+    </itemId>
+    <description>Tisyu BT To Go 4sx2Ply Refill                                             CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>570.000</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="16">
+    <itemId>
+      <gtin>14806502160548</gtin>
+    </itemId>
+    <description>Sanicare Cotton Buds 400 Tips                                             CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>2038.320</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-27</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+</orders>

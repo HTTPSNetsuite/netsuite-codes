@@ -1,0 +1,11 @@
+{
+	"require" : {
+		"guzzlehttp/guzzle" : "~5.0",
+		"illuminate/filesystem" : "5.0.4",
+		"slim/slim" : "~2.6",
+		"propel/propel" : "~2.0@dev"
+	},
+	"autoload" : {
+		"classmap" : ["db_config/models/"]
+	}
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<head>
+  <style>
+  	body { 
+  		font: Arial, Helvetica, sans-serif;
+  		font-size: 12px;
+  		margin-left: 1in;
+  		margin-right: 1in;
+  	}
+	table {
+		width: 100%;
+	}
+	#in-address, #subject, #salutation, #message-body {
+		margin-bottom: 20px;
+	}
+	#in-address tr, #in-address td {
+		margin: 0;
+		padding: 0;		
+	}
+	#message-body tr{
+		margin-bottom: 10px;
+	}
+	.margin-bot-30 {
+		margin-bottom: 30px;
+	}
+	.green {
+		color: #87D37C;
+	}
+  </style>
+</head>
+<body>
+<table id="date">
+	<tr>
+		<td align="right">#DATE#</td>
+	</tr>
+</table>
+<table id="in-address">
+	<tr>
+		<td align="left">#LETTERNAME1#</td>
+	</tr>
+	<tr>
+		<td align="left">#CUS_ADDR1#</td>
+	</tr>
+	<tr>
+		<td align="left">#CUS_ADDR2#</td>
+	</tr>
+	<tr>
+		<td align="left">#CUS_CITY# #CUS_STATE# #CO_ADDR1#</td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+</table>
+
+<table id="subject">
+	<tr>
+		<td align="left"><strong>RE: Lot </strong>#CO_LOTNO# #CO_STREETNO# #CO_ADDR1#</td>
+	</tr>
+	<tr>
+		<td align="left">#CO_CITY#</td>
+	</tr>
+	<tr>
+		<td align="left"><strong>Job: </strong>#CO_CONTRACT#</td>
+	</tr>
+</table>
+<table id="salutation">
+	<tr>
+		<td align="left">Dear #LETTERNAME1#</td>
+	</tr>
+</table>
+<table id="message-body">
+	<tr>
+		<td>
+			We have been informed that your selection for your kitchen benchtop is no longer available from the manufacturer. It is therefore, with regret, that we must ask you to make a new selection.
+		</td>
+	</tr>
+	<tr>
+		<td>
+			We have enclosed a few samples, which are similar to your original selection, which you may wish to consider during your reselection, at no extra charge.
+		</td>
+	</tr>
+	<tr>
+		<td>
+			If you are not happy with the samples enclosed, please feel free to attend our office to select another colour.
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Should you need to discuss this further please contact your Customer Service Consultant.
+		</td>
+	</tr>
+	<tr>
+		<td>
+			We apologise for any inconvenience this may cause.
+		</td>
+	</tr>
+</table>
+<table id="closing">
+	<tr class="margin-bot-30">
+		<td>Yours faithfully,</td>
+	</tr>
+	<tr>
+		<td>#USR_NAME#</td>
+	</tr>
+	<tr>
+		<td>BEECHWOOD HOMES (NSW) Pty Ltd</td>
+	</tr>
+</table>
+<table font-size="8px" top="90px">
+	<tr>
+		<td><strong class="green">BEECHWOOD HOMES (NSW) PTY LIMITED</strong>&nbsp; ABN 50 132 370 104</td>
+	</tr>
+	<tr>
+		<td><strong class="green">SYDNEY </strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Unit 2, 25-27 Redfern Street, Wetherill Park NSW 2164 <strong>T(02) 9616 0999 F(02) 9616 0991</strong></td>
+	</tr>
+	<tr>
+		<td><strong class="green">NORTH COAST</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Unit 4, 26 Balook Drive, Beresfield NSW 2322 <strong>T(02) 4028 6716 F(02) 4971 5288</strong></td>
+	</tr>
+	<tr>
+		<td><strong class="green">SOUTH COAST</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Cnr Cambewarra Road &amp; Princess Highway, Bomaderry NSW 2541 T(02) 4423 0000 F(02) 4423 0002</td>
+	</tr>
+	<tr>
+		<td>info@beechwoodhomes.com.au <strong>www.beechwoodhomes.com.au</strong></td>
+	</tr>
+</table>
+</body>
+</pdf>

@@ -1,0 +1,42 @@
+Accepted Request: getSyncFiles 05/18/2015 12:13:07.
+Return zero result: getSyncFiles 05/18/2015 12:13:07.
+Accepted Request: getFiles 05/18/2015 12:21:53.
+Return list of files: getFiles 05/18/2015 12:21:53.
+Accepted Request: getFiles 05/18/2015 12:43:39.
+Return list of files: getFiles 05/18/2015 12:43:39.
+Accepted Request: getFiles 05/19/2015 04:24:37.
+Return list of files: getFiles 05/19/2015 04:24:37.
+Accepted Request: getFiles 05/19/2015 04:24:59.
+Return list of files: getFiles 05/19/2015 04:24:59.
+This file(4800608880006_2015-04-18T00,38,33.5331Z@scn1.scn.ph.ORDERS.xml) with store(pg) is already processed before: processFile 06/02/2015 03:04:34.
+No duplicate data: processFile 06/02/2015 03:08:17.
+Return data in JSON: processFile 06/02/2015 03:08:18.
+This file(4800608880006_2015-04-18T00,38,33.5331Z@scn1.scn.ph.ORDERS.xml) with store(pg) is already processed before: processFile 06/02/2015 03:10:51.
+This file(4800608880006_2015-04-18T00,38,33.5331Z@scn1.scn.ph.ORDERS.xml) with store(pg) is already processed before: processFile 06/02/2015 03:11:07.
+This file(4800608880006_2015-04-18T00,38,33.5331Z@scn1.scn.ph.ORDERS.xml) with store(pg) is already processed before: processFile 06/02/2015 03:12:40.
+This file(4800608880006_2015-04-18T00,38,33.5331Z@scn1.scn.ph.ORDERS.xml) with store(pg) is already processed before: processFile 06/02/2015 03:12:42.
+This file(4800608880006_2015-04-18T00,38,33.5331Z@scn1.scn.ph.ORDERS.xml) with store(pg) is already processed before: processFile 06/02/2015 03:12:42.
+This file(4800608880006_2015-04-18T00,38,33.5331Z@scn1.scn.ph.ORDERS.xml) with store(pg) is already processed before: processFile 06/02/2015 03:12:42.
+No duplicate data: processFile 06/02/2015 03:13:03.
+Return data in JSON: processFile 06/02/2015 03:13:03.
+No duplicate data: processFile 06/02/2015 03:13:09.
+Return data in JSON: processFile 06/02/2015 03:13:09.
+No duplicate data: processFile 06/02/2015 03:13:10.
+Return data in JSON: processFile 06/02/2015 03:13:10.
+No duplicate data: processFile 06/02/2015 03:13:10.
+Return data in JSON: processFile 06/02/2015 03:13:10.
+No duplicate data: processFile 06/02/2015 03:13:24.
+Return data in JSON: processFile 06/02/2015 03:13:24.
+No duplicate data: processFile 06/02/2015 03:16:12.
+Return data in JSON: processFile 06/02/2015 03:16:12.
+No duplicate data: processFile 06/02/2015 03:16:46.
+Return data in JSON: processFile 06/02/2015 03:16:47.
+No duplicate data: processFile 06/02/2015 03:17:14.
+Return data in JSON: processFile 06/02/2015 03:17:14.
+No duplicate data: processFile 06/02/2015 03:17:28.
+Return data in JSON: processFile 06/02/2015 03:17:28.
+No duplicate data: processFile 06/02/2015 03:17:33.
+Return data in JSON: processFile 06/02/2015 03:17:33.
+No duplicate data: processFile 06/02/2015 03:18:00.
+Return data in JSON: processFile 06/02/2015 03:18:00.
+No duplicate data: processFile 06/02/2015 03:21:09.

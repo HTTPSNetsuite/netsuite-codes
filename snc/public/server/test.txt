@@ -1,0 +1,1 @@
+{"number":"2433120","customer_code":"4800608880006","delivery_date":"2015-04-21","items":[{"upc":"02000012011023","discount":"1","qty":"wala pa"},{"upc":"02000012011627","discount":"1","qty":"wala pa"}]}

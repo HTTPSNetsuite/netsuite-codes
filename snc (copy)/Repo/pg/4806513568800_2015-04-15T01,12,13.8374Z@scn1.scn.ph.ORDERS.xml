@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<orders creationDate="2015-04-14" documentId="4502258419" status="ORIGINAL">
+  <buyer>
+    <gln>4806513569234</gln>
+  </buyer>
+  <seller>
+    <gln>4806502358801</gln>
+  </seller>
+  <deliveryLocation>
+    <gln>4806513569234</gln>
+  </deliveryLocation>
+  <deliveryDate>
+    <from>
+      <date>2015-04-15</date>
+    </from>
+  </deliveryDate>
+  <cancelIfNotDeliveredBy>
+    <date>2015-04-20</date>
+  </cancelIfNotDeliveredBy>
+  <notes>4th Estate</notes>
+  <lineItems lineItemNumber="1">
+    <itemId>
+      <gtin>14806502356002</gtin>
+    </itemId>
+    <description>Ever Savers BT 1sx1Ply/2Ply                                               CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>657.600</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="2">
+    <itemId>
+      <gtin>14806502359751</gtin>
+    </itemId>
+    <description>Femme BT 1sx2Ply                                                          CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>744.000</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="3">
+    <itemId>
+      <gtin>14806502358662</gtin>
+    </itemId>
+    <description>Sanicare BT 1sx600sx2/3Ply                                                CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1637.040</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="4">
+    <itemId>
+      <gtin>14806502350178</gtin>
+    </itemId>
+    <description>Sanicare Cotton Buds 200 Tips Cans                                        CS2   00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1409.040</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="5">
+    <itemId>
+      <gtin>14806502359225</gtin>
+    </itemId>
+    <description>Tisyu BT Coreless 10sx2Ply                                                CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>820.800</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+  <lineItems lineItemNumber="6">
+    <itemId>
+      <gtin>14806502352394</gtin>
+    </itemId>
+    <description>Sanicare Cleansing Wipes 15s                                              CS    00.0000.0000.0000.0000.00</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1425.000</monetaryAmount>
+    </netPrice>
+    <cancelIfNotDeliveredBy>
+      <date>2015-04-20</date>
+    </cancelIfNotDeliveredBy>
+  </lineItems>
+</orders>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<orders creationDateTime="2015-04-21T00:00:00" documentStatus="ORIGINAL" documentStructureVersion="4.0">
+  <orderId>0017681092-00</orderId>
+  <orderPartyInformation>
+    <contentOwner>
+      <gln>4806517278804</gln>
+      <nameAndAddress>PUREGOLD PRICE CLUB INC.</nameAndAddress>
+    </contentOwner>
+    <seller>
+      <gln>4806502358801</gln>
+      <nameAndAddress>SANITARY CARE PRODUCTS ASIA INC.</nameAndAddress>
+      <additionalPartyId type="BUYER_ASSIGNED">
+        <value>010435</value>
+      </additionalPartyId>
+    </seller>
+    <buyer>
+      <gln>4806517278804</gln>
+      <nameAndAddress>PUREGOLD PRICE CLUB INC.</nameAndAddress>
+    </buyer>
+    <orderContact>
+      <communicationChannel>
+        <telephone>8386617/73</telephone>
+        <fax>8388883</fax>
+      </communicationChannel>
+      <personOrDepartmentName>:buyer:301 KATRINA ORTIZ:dept:22 HOUSEHOLD MAINTENANCE Department:sub:*All</personOrDepartmentName>
+    </orderContact>
+  </orderPartyInformation>
+  <orderLogisticalInformation>
+    <shipToLogistics>
+      <shipTo>
+        <gln>4806517271010</gln>
+        <nameAndAddress>:name:PUREGOLD PRICE CLUB-SHAW:address:MANDALUYONG SHAW BOULEVARD PMP PHILIPPINES:contact:</nameAndAddress>
+      </shipTo>
+      <ultimateConsignee>
+        <gln>4806517271010</gln>
+        <nameAndAddress>:dlvLocation:PUREGOLD PRICE CLUB-SHAW:dlvAddress:MANDALUYONG SHAW BOULEVARD PMP PHILIPPINES</nameAndAddress>
+        <additionalPartyId type="BUYER_ASSIGNED">
+          <value>00101</value>
+        </additionalPartyId>
+      </ultimateConsignee>
+    </shipToLogistics>
+    <orderLogisticalDateGroup>
+      <requestedDeliveryDateAtUltimateConsignee>
+        <earliestDate>2015-04-22</earliestDate>
+      </requestedDeliveryDateAtUltimateConsignee>
+      <requestedDeliveryDate>
+        <earliestDate>2015-04-23</earliestDate>
+      </requestedDeliveryDate>
+    </orderLogisticalDateGroup>
+    <cancelIfNotDeliveredByDateTime>2015-05-17T00:00:00</cancelIfNotDeliveredByDateTime>
+  </orderLogisticalInformation>
+  <paymentTerms>45 45 DAYS</paymentTerms>
+  <specialDeliveryNote>:status:3:type:C:remarks::currency:PHP -PHILIPPINE PESO:discounts::skuAllow::netTotal:3484.8000:skuDs:.0000:otherDs:.00</specialDeliveryNote>
+  <orderLineItem number="1">
+    <tradeItemId>
+      <gtin>4806502161265</gtin>
+      <additionalTradeItemId type="BUYER_ASSIGNED">
+        <value>463057-8</value>
+      </additionalTradeItemId>
+    </tradeItemId>
+    <description>REACH FT TRAVEL PACK 2PLY 40P</description>
+    <requestedQuantity unitOfMeasure="C72">
+      <value>3.00</value>
+    </requestedQuantity>
+    <amountPerUnit>
+      <monetaryAmount>489.6000</monetaryAmount>
+    </amountPerUnit>
+    <netPrice>
+      <monetaryAmount>1468.8000</monetaryAmount>
+    </netPrice>
+    <additionalOrderLineInstruction>:vendorSpecsDs:</additionalOrderLineInstruction>
+  </orderLineItem>
+  <orderLineItem number="2">
+    <tradeItemId>
+      <gtin>4806502161463</gtin>
+      <additionalTradeItemId type="BUYER_ASSIGNED">
+        <value>472680-6</value>
+      </additionalTradeItemId>
+    </tradeItemId>
+    <description>REACH FT BGTRAVEL PCK 2PLY 70P</description>
+    <requestedQuantity unitOfMeasure="C48">
+      <value>3.00</value>
+    </requestedQuantity>
+    <amountPerUnit>
+      <monetaryAmount>672.0000</monetaryAmount>
+    </amountPerUnit>
+    <netPrice>
+      <monetaryAmount>2016.0000</monetaryAmount>
+    </netPrice>
+    <additionalOrderLineInstruction>:vendorSpecsDs:</additionalOrderLineInstruction>
+  </orderLineItem>
+</orders>

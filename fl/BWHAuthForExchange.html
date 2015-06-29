@@ -1,0 +1,481 @@
+<?xml version="1.0"?>
+<!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<head>
+  	<style>
+	  	body { 
+	  		font: Arial, Helvetica, sans-serif;
+	  		font-size: 12px;
+	  	}
+		table {
+			width: 100%;
+		}
+		.space { 
+			padding-left: 10px;
+		}
+		span {
+			display: block;
+		}
+		td, th {
+			padding-left: 2px;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td align="left">
+				<strong><u><span style = "font-size: 18px;">REQUEST FOR CONTRACTS – JOB NUMBER: </span></u></strong>#CO_CONTRACT#
+			</td>			
+		</tr>
+	</table>
+	<table style = "border: 1px solid;">
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid; width: 20%;"><strong>DA APPROVED</strong></td>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid;">#CO_VOLUME#</td>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid;">CC APPROVED</td>
+			<td align = "left" style = "border-bottom: 1px solid;">#CO_FOLIO#</td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-right: 1px solid;"><strong>DA RECEIVED</strong></td>
+			<td align = "left" style = "border-right: 1px solid;"></td>
+			<td align = "left" style = "border-right: 1px solid;">CC RECEIVED</td>
+			<td align = "left"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0">
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid; width: 20%;"><strong>SURNAME:</strong></td>
+			<td align = "left" style = "border-bottom: 1px solid;">#LETTERNAME1#</td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid; width: 20%;"><strong>FULL NAME 1:</strong></td>
+			<td align = "left" style = "border-bottom: 1px solid;">#CONTACTNAME1#</td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid; width: 20%;"><strong>FULL NAME 2:</strong></td>
+			<td align = "left" style = "border-bottom: 1px solid;">#CONTACTNAME2#</td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid; width: 20%;"><strong>FULL NAME 3:</strong></td>
+			<td align = "left" style = "border-bottom: 1px solid; "></td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid; width: 20%;"><strong>BUILDING ADDRESS:</strong></td>
+			<td align = "left" style = "border-bottom: 1px solid;">Lot #CO_LOTNO# #CO_ADDR1# #CO_CITY#</td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-right: 1px solid; width: 20%;"><strong>PRIVATE ADDRESS:</strong></td>
+			<td align = "left">#CUS_ADDR1#, #CUS_ADDR2#, #CUS_CITY# #CUS_STATE# #CUS_POSTCODE#</td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid; width: 20%;"><strong>PHONE:</strong></td>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid;"><strong>Home:</strong></td>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid;">#CONTACTPHHOME_1#</td>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid;"><strong>Work:</strong></td>
+			<td align = "left" style = "border-bottom: 1px solid;">#CONTACTPHWORK_1#</td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid;"></td>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid;"><strong>Mobile:</strong></td>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid;">#CONTACTMOBILE_1#</td>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid;"><strong>Email:</strong></td>
+			<td align = "left" style = "border-bottom: 1px solid;">#CONTACTEMAIL_1#</td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-right: 1px solid;"></td>
+			<td align = "left" style = "border-right: 1px solid;"><strong>Fax:</strong></td>
+			<td align = "left" style = "border-right: 1px solid;">#CONTACTFAX_1#</td>
+			<td align = "left" style = "border-right: 1px solid;"><strong>Other:</strong></td>
+			<td align = "left">#CONTACTMOBILE_2#</td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-right: 1px solid; width: 20%;"><strong>IS TENDER CURRENT:</strong></td>
+			<td align = "right"><input type = "checkbox" name = "c1" /></td>
+			<td align = "left">YES</td>
+			<td align = "right"><input type = "checkbox" name = "c2" /></td>
+			<td align = "left">NO</td>
+			<td style = "width: 60%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-right: 1px solid; width: 20%;"><strong>LOAN SOURCE:</strong></td>
+			<td align = "left">#CO_LENDNAME#</td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left"><strong>LETTER TO COMMENCE/CAPACITY TO PAY: </strong></td>
+			<td align = "right"><input type = "checkbox" name = "c3" /></td>
+			<td align = "left">IN FILE</td>
+			<td align = "right"><input type = "checkbox" name = "c4" /></td>
+			<td align = "left">ATTACHED</td>
+			<td align = "right"><input type = "checkbox" name = "c5" /></td>
+			<td align = "left">REQUIRED</td>
+			<td style = "width: 10%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left"><strong>ARE FUNDS IN THE ABOVE NAMES: </strong></td>
+			<td align = "right"><input type = "checkbox" name = "c6" /></td>
+			<td align = "left">YES</td>
+			<td style = "width: 40%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left"><strong>PROOF OF OWNERSHIP:</strong></td>
+			<td align = "right"><input type = "checkbox" name = "c7" /></td>
+			<td align = "left">IN FILE</td>
+			<td align = "right"><input type = "checkbox" name = "c8" /></td>
+			<td align = "left">ATTACHED</td>
+			<td align = "right"><input type = "checkbox" name = "c9" /></td>
+			<td align = "left">REQUIRED</td>
+			<td style = "width: 10%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left"><strong>IS LAND TITLE IN THE ABOVE NAMES:</strong></td>
+			<td align = "right"><input type = "checkbox" name = "c10" /></td>
+			<td align = "left">YES</td>
+			<td style = "width: 50%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left"><strong>DO YOU HAVE A HOUSE ON SITE TO BE REMOVED:</strong></td>
+			<td align = "right"><input type = "checkbox" name = "c11" /></td>
+			<td align = "left">YES</td>
+			<td align = "right"><input type = "checkbox" name = "c12" /></td>
+			<td align = "left">NO</td>
+			<td style = "width: 40%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left"><strong>CLIENT CONTACTED:</strong></td>
+			<td align = "right"><input type = "checkbox" name = "c13" /></td>
+			<td align = "left">YES</td>
+			<td align = "right"><input type = "checkbox" name = "c14" /></td>
+			<td align = "left">NO</td>
+			<td style = "width: 60%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid;">COMMENTS</td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+		<tr>
+			<td align = "left" style = "height: 20px;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-right: 1px solid;">SIGNED:</td>
+			<td align = "left">DATE:</td>
+		</tr>
+	</table>
+	<table style = "margin-top: 30px;">
+		<tr>
+			<td align = "center" style = "font-size: 18px;"><strong><u>CONFIRMATION - COLOUR SELECTION BOOKING</u></strong></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid;">
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid;">DATE:</td>
+			<td align = "left" style = "border-bottom: 1px solid;">TIME:</td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-right: 1px solid;">CURRENT TENDER AMOUNT $</td>
+			<td align = "left">DEPOSIT ON EXCHANGE $</td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid;">COMMENT:</td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+		<tr>
+			<td align = "left" style = "height: 20px;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-right: 1px solid;">SIGNED:</td>
+			<td align = "left">DATE</td>
+		</tr>
+	</table>
+	<pbr />
+	<table style = "border: 1px solid;">
+		<tr>
+			<td align = "center" style = "border-bottom: 1px solid; font-size: 18px;"><strong>EXCHANGE AUTHORISATION</strong></td>
+		</tr>
+		<tr>
+			<td align = "center" style = "border-bottom: 1px solid;">#LETTERNAME1#</td>
+		</tr>
+		<tr>
+			<td align = "center">#CO_CONTRACT#</td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-bottom: 0; border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-right: 1px solid; width: 25%">Tender Date:</td>
+			<td align = "left" style = "border-right: 1px solid;">Is Redate Required:</td>
+			<td align = "center">YES</td>
+			<td align = "center" style = "border-right: 1px solid;">NO</td>
+			<td align = "center" style = "border-right: 1px solid;">Is Tender Current:</td>
+			<td align = "center" style = "border-right: 1px solid;">YES</td>
+			<td align = "center">NO</td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-bottom: 0;">
+		<tr>
+			<td align = "left" style = ""><strong>COMMENTS: </strong></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-bottom: 0;">
+		<tr>
+			<td align = "left" style = "border-right: 1px solid;">Air Conditioning:</td>
+			<td align = "left"><input type = "checkbox" name = "ch1" /></td>
+			<td align = "left">n/a</td>
+			<td align = "left"><input type = "checkbox" name = "ch2" /></td>
+			<td align = "left">By Builder</td>
+			<td align = "left"><input type = "checkbox" name = "ch3" /></td>
+			<td align = "left">By Owner</td>
+			<td style = "width: 40%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-bottom: 0;">
+		<tr>
+			<td align = "left" style = "border-right: 1px solid;">Area Allowance: $</td>
+			<td align = "left">Fibre Optics:</td>
+			<td align = "left"><input type = "checkbox" name = "ch4" /></td>
+			<td align = "left">n/a</td>
+			<td align = "left"><input type = "checkbox" name = "ch5" /></td>
+			<td align = "left">By Builder</td>
+			<td align = "left"><input type = "checkbox" name = "ch6" /></td>
+			<td align = "left">By Owner</td>
+			<td style = "width: 40%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-bottom: 0;">
+		<tr>
+			<td align = "left">Driveway:</td>
+			<td align = "left"><input type = "checkbox" name = "ch7" /></td>
+			<td align = "left">By Builder</td>
+			<td align = "left"><input type = "checkbox" name = "ch8" /></td>
+			<td align = "left">By Owner</td>
+			<td style = "width: 40%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid;">
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid;"><strong><u><span style = "font-size: 14px;">OWNER SUPPLIED ITEMS:</span></u></strong></td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+		<tr>
+			<td align = "center"><strong><u><span style = "font-size: 14px;">EXCHANGE CHECKLIST</span></u></strong></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-right: 1px solid; width: 33%;"><strong>88B INSTRUMENT</strong></td>
+			<td align = "right"><input type = "checkbox" name = "che34" /></td>
+			<td align = "left">YES</td>
+			<td align = "right"><input type = "checkbox" name = "che33" /></td>
+			<td align = "left" style = "border-right: 1px solid;">NO</td>
+			<td align = "left" style = "border-right: 1px solid; width: 33%;"><strong>ROOF OF LAND OWNERSHIP</strong></td>
+			<td align = "right"><input type = "checkbox" name = "che32" /></td>
+			<td align = "left">YES</td>
+			<td align = "right"><input type = "checkbox" name = "che31" /></td>
+			<td align = "left">NO</td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-right: 1px solid; width: 33%;"><strong>ENGINEER DETAILS - COUNCIL</strong></td>
+			<td align = "right"><input type = "checkbox" name = "che30" /></td>
+			<td align = "left">YES</td>
+			<td align = "right"><input type = "checkbox" name = "che29" /></td>
+			<td align = "left" style = "border-right: 1px solid;">NO</td>
+			<td align = "left" style = "border-right: 1px solid; width: 33%;"><strong>COUNCIL DA CONDITIONS</strong></td>
+			<td align = "right"><input type = "checkbox" name = "che28" /></td>
+			<td align = "left">YES</td>
+			<td align = "right"><input type = "checkbox" name = "che27" /></td>
+			<td align = "left">NO</td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-right: 1px solid; width: 33%;"><strong>COSTING/P.A.'s</strong></td>
+			<td align = "right"><input type = "checkbox" name = "che26" /></td>
+			<td align = "left">YES</td>
+			<td align = "right"><input type = "checkbox" name = "che25" /></td>
+			<td align = "left" style = "border-right: 1px solid;">NO</td>
+			<td align = "left" style = "border-right: 1px solid; width: 33%;"><strong>QUOTE CORRECT</strong></td>
+			<td align = "right"><input type = "checkbox" name = "che24" /></td>
+			<td align = "left">YES</td>
+			<td align = "right"><input type = "checkbox" name = "che23" /></td>
+			<td align = "left">NO</td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-right: 1px solid; width: 33%;"><strong>OWNERS CUSTOMISED VARIATIONS</strong></td>
+			<td align = "right"><input type = "checkbox" name = "che22" /></td>
+			<td align = "left">YES</td>
+			<td align = "right"><input type = "checkbox" name = "che21" /></td>
+			<td align = "left" style = "border-right: 1px solid;">NO</td>
+			<td align = "left" style = "border-right: 1px solid; width: 33%;"><strong>READY TO EXCHANGE</strong></td>
+			<td align = "right"><input type = "checkbox" name = "che20" /></td>
+			<td align = "left">YES</td>
+			<td align = "right"><input type = "checkbox" name = "che19" /></td>
+			<td align = "left">NO</td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-right: 1px solid; width: 35%;"><strong>BENCHING LEVELS</strong></td>
+			<td align = "right" style = "border-right: 1px solid;">MAX CUT __________________</td>
+			<td align = "left" style = "border-right: 1px solid;">MAX FILL</td>
+			<td align = "left" style = "border-right: 1px solid;">___________________</td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left">COMMENTS:</td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid;">
+		<tr>
+			<td align = "left">Finance information:</td>
+			<td align = "right"><input type = "checkbox" name = "che14" /></td>
+			<td align = "left">In File</td>
+			<td align = "right"><input type = "checkbox" name = "che13" /></td>
+			<td align = "left">Required</td>
+			<td style = "width: 60%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid;">
+		<tr>
+			<td style = "height: 20px; border-bottom: 1px solid;"></td>
+		</tr>
+		<tr>
+			<td style = "height: 20px; border-bottom: 1px solid;"></td>
+		</tr>
+		<tr>			
+			<td style = "height: 20px; border-bottom: 1px solid;"></td>
+		</tr>
+		<tr>			
+			<td style = "height: 20px;"></td>
+		</tr>		
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>			
+			<td style = "height: 20px;" align = "center"><strong><u><span style = "font-size: 14px;">SPECIAL CONDITIONS 'SCHEDULE D' OF CONTRACT</span></u></strong></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid;">
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid; width: 30%">Electricity _____________metres</td>
+			<td align = "left"><strong>Works by Owner:</strong></td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid; width: 30%">Water________________metres</td>
+			<td align = "right"></td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-bottom: 1px solid; border-right: 1px solid; width: 30%">Sewer________________metres</td>
+			<td align = "right"></td>
+		</tr>
+		<tr>
+			<td align = "left" style = "border-right: 1px solid; width: 30%">Stormwater____________metres</td>
+			<td align = "right"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<td align = "left"><strong>R.O.W.:</strong></td>
+			<td align = "right"><input type = "checkbox" name = "che12" /></td>
+			<td align = "left">n/a</td>
+			<td align = "right"><input type = "checkbox" name = "che11" /></td>
+			<td align = "left">By Builder</td>
+			<td align = "right"><input type = "checkbox" name = "che10" /></td>
+			<td align = "left" style = "border-right: 1px solid;">By Owner</td>
+			<td style = "height: 20px; width: 50%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid;  border-top: 0;">
+		<tr>
+			<td align = "left" style = "border-right: 1px solid; width: 30%; padding-top: 10px;"><strong>_______________ tonnes of fill</strong><br />
+				<input type = "checkbox" name = "che9" style = "display: inline;"/> n/a 
+				<input type = "checkbox" name = "che8" style = "display: inline;"/> By Builder 
+				<input type = "checkbox" name = "che7" style = "display: inline;"/> By Owner
+			</td>
+			<td style = "height: 20px;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-bottom: 0; solid; border-top: 0;">
+		<tr>
+			<td align = "left"><strong>Site clearing:</strong></td>
+			<td align = "right"><input type = "checkbox" name = "che6" /></td>
+			<td align = "left">n/a</td>
+			<td align = "right"><input type = "checkbox" name = "che5" /></td>
+			<td align = "left">By Builder</td>
+			<td align = "right"><input type = "checkbox" name = "che4" /></td>
+			<td align = "left" style = "border-right: 1px solid;">By Owner</td>
+			<td style = "height: 20px; width: 50%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-bottom: 0;">
+		<tr>
+			<td align = "left"><strong>Septic system:</strong></td>
+			<td align = "right"><input type = "checkbox" name = "che3" /></td>
+			<td align = "left">n/a</td>
+			<td align = "right"><input type = "checkbox" name = "che2" /></td>
+			<td align = "left">By Builder</td>
+			<td align = "right"><input type = "checkbox" name = "che1" /></td>
+			<td align = "left" style = "border-right: 1px solid;">By Owner</td>
+			<td style = "height: 20px; width: 50%;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-bottom: 0;">
+		<tr>
+			<td style = "height: 20px;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid;">
+		<tr>
+			<td style = "height: 20px; border-right: 1px solid;">PREPARED BY:</td>
+			<td style = "height: 20px;">DATE:</td>
+		</tr>
+	</table>
+</body>
+</pdf>
+

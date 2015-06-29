@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+<head>
+  <style>
+  	body { 
+  		font: Arial, Helvetica, sans-serif;
+  		font-size: 12px;
+  		margin-left: 1in;
+  		margin-right: 1in;
+  	}
+	table {
+		width: 100%;
+	}
+	span + span {
+		margin-right: 4px;
+	}
+	ul>li {
+		list-style-type: decimal;
+	}
+	#tds {
+		border: 0;
+		border-bottom: 1px solid;
+	}
+	.left {
+		border: 0;
+		border-right: 1px solid;
+		border-bottom: 1px solid;
+	}
+	.right {
+		border: 0;
+		border-bottom: 1px solid;
+	}
+	.space { 
+		padding-left: 10px;
+	}
+	.last {
+		border-bottom: 0;
+	}
+  </style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td align="right">
+				<span>#DATE#</span>
+			</td>
+		</tr>	
+		<tr>
+			<td align="left">
+				<span><strong>#LETTERNAME1#</strong></span>
+			</td>
+		</tr>
+		<tr>
+			<td align="left">
+				<strong> #CO_STREETNO# #CO_ADDR1#</strong>
+			</td>
+		</tr>
+		<tr>
+			<td align="left">
+				<strong> #CO_CITY# #CO_STATE# #CO_POSTCODE# </strong>
+			</td>
+		</tr>
+		<tr>
+			<td height="30px"></td>
+		</tr>
+		<tr>
+			<td align="left">
+				<strong>
+					<span>Re:</span>
+					<span>Lot</span>
+					<span>#CO_LOTNO#</span>
+					<span>#CO_STREETNO#</span>
+					<span>#CO_ADDR1#</span>
+					<span>#CO_CITY#</span>
+				</strong>
+			</td>
+		</tr>
+		<tr>
+			<td height="30px"></td>
+		</tr>
+		<tr>
+			<td align="left">Dear <span>#LETTERNAME1#</span></td>
+		</tr>
+		<tr>
+			<td height="30px"></td>
+		</tr>
+		<tr>
+			<td align="left">We acknowledge receipt of your defects list and advise that these items will receive our attention at the first available date after the *** as per your request.</td>
+		</tr>
+		<tr>
+			<td align="left">Please check the following information:</td>
+		</tr>
+		<tr>
+			<td align="left">
+				<table style = "margin-left: 20px; width: 70%;">
+					<tr>
+						<td><strong>1. Home Phone:</strong></td>
+						<td>#CONTACTPHHOME_1#</td>
+					</tr>
+					<tr>
+						<td><strong>2. Work Phone:</strong></td>
+						<td>#CONTACTPHWORK_1#</td>
+					</tr>
+					<tr>
+						<td><strong>3. Mobile Phone::</strong></td>
+						<td>#CONTACTMOBILE_1#</td>
+					</tr>
+					<tr>
+						<td><strong>4. Other:</strong></td>
+						<td>#CONTACTMOBILE_2#</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="30px"></td>
+		</tr>
+		<tr>
+			<td>If any of the above information is incorrect, please advise our office. </td>
+		</tr>
+		<tr>
+			<td height="30px"></td>
+		</tr>
+		<tr>
+			<td>Our warranty staff and/or trades people will be in contact with you to arrange an appropriate time to carry out the necessary work.</td>
+		</tr>
+		<tr>
+			<td height="30px"></td>
+		</tr>
+		<tr>
+			<td>Yours faithfully,</td>
+		</tr>
+		<tr>
+			<td height="30px"></td>
+		</tr>
+		<tr>
+			<td><strong>Edward Pasfield</strong></td>
+		</tr>
+		<tr>
+			<td><u>Warranty Service</u></td>
+		</tr>
+		<tr>
+			<td>
+				<span>Our Ref:</span>
+			 	<span>#CO_CONTRACT#</span>
+			 </td>
+		</tr>
+	</table>
+
+	<pbr />
+	<table style = "border: 1px solid;" id = "tblId">
+		<tr>
+			<td align = "center" id = "tds" width = "100%;"><u>DEFECTS LIABILITY PERIOD - JOB CARD</u></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0; border-bottom: 0;">
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid; width: 20%; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid">JOB:</td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid;">#CO_CONTRACT#</td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid">CLIENT:</td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid;">
+				<span>#CONTACTNAME1#</span>
+				<span>&amp; #CONTACTNAME2#</span>
+			</td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid">ADDRESS:</td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid;">
+				<span>Lot</span>
+				<span>#CO_LOTNO#</span>
+				<span>#CO_ADDR1#</span>
+				<span>#CO_CITY#</span>
+			</td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid">COUNCIL:</td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid;">#COU_DESC#</td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" valign = "top" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid">PHONE:</td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid;">
+				<table style = "width: 50%">
+					<tr>
+						<td><strong>Home:</strong></td>
+						<td>#CONTACTPHHOME_1#</td>
+					</tr>
+					<tr>
+						<td><strong>Work:</strong></td>
+						<td>#CONTACTPHWORK_1#</td>
+					</tr>
+					<tr>
+						<td><strong>Mobile:</strong></td>
+						<td>#CONTACTMOBILE_1#</td>
+					</tr>
+					<tr>
+						<td><strong>Other:</strong></td>
+						<td>#CONTACTMOBILE_2#</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid">LETTER REC'D:</td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid;"></td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid">INSPECTED:</td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid;"></td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid">HOUSE TYPE:</td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid;">#HOU_DESC#</td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid">PLUMBER:</td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid;"></td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid">ELECTRICIAN:</td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid;"></td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+	</table>
+	<table style = "border: 1px solid; border-top: 0;">
+		<tr>
+			<th class = "space" align = "left" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid; width: 10%;"><strong><u>ITEM</u></strong></th>
+			<th class = "space" align = "left" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid"><strong><u>ACTION REQUIRED</u></strong></th>
+			<th class = "right space" align = "left" style = "border: 0; border-bottom: 1px solid; height: 20px; width: 20%;"><strong><u>CONFIRMED</u></strong></th>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; border-right: 1px solid; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; border-bottom: 1px solid; height: 20px;"></td>
+		</tr>
+		<tr>						
+			<td align = "left" class = "space" style = "border: 0; border-right: 1px solid; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; border-right: 1px solid; height: 20px;"></td>
+			<td align = "left" class = "space" style = "border: 0; height: 20px;"></td>
+		</tr>
+	</table>
+</body>
+</pdf>

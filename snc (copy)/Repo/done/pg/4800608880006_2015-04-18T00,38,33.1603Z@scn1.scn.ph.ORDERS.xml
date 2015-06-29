@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<orders creationDate="2015-04-17" documentId="2433120" status="ORIGINAL">
+  <buyer>
+    <gln>4800608880006</gln>
+  </buyer>
+  <seller>
+    <gln>4806502358801</gln>
+  </seller>
+  <deliveryLocation>
+    <gln>4800608880518</gln>
+  </deliveryLocation>
+  <deliveryDate>
+    <from>
+      <date>2015-04-21</date>
+    </from>
+  </deliveryDate>
+  <cancelIfNotDeliveredBy>
+    <date>2015-04-21</date>
+  </cancelIfNotDeliveredBy>
+  <notes>PLEASE ATTACH THIS P.O. TO YOUR SALES INVOIVE.    DELIVER ON OR BEFORE SHIP DATE.                   PLEASE PICK-UP B.O.         /TNX.         CABUYAO</notes>
+  <lineItems lineItemNumber="1">
+    <itemId>
+      <gtin>02000012011023</gtin>
+    </itemId>
+    <description>BT 500S 3PLY 1S EVDAY BT 500S 3PLY 1S/96</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1209.60</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="2">
+    <itemId>
+      <gtin>02000012011627</gtin>
+    </itemId>
+    <description>BT 300S 2PLY VL EVDAY BT 300S 2PLY VLUE 4S/24</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>662.40</monetaryAmount>
+    </netPrice>
+  </lineItems>
+</orders>

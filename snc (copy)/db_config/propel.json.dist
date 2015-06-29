@@ -1,0 +1,8 @@
+{
+    "propel": {
+        "paths": {
+            "schemaDir": "/home/nesmar/Desktop/netsuite codes/sanitarycare/db_config",
+			"phpDir": "/home/nesmar/Desktop/netsuite codes/sanitarycare/db_config/models"
+        }
+    }
+}

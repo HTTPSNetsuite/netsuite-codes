@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<orders creationDate="2015-04-20" documentId="17669506-00" status="ORIGINAL" number="17669506-00" type="SIMPLE">
+  <buyer>
+    <gln>4806517278804</gln>
+  </buyer>
+  <seller>
+    <gln>4806502358801</gln>
+  </seller>
+  <deliveryLocation>
+    <gln>4806517271638</gln>
+  </deliveryLocation>
+  <deliveryDate>
+    <from>
+      <date>2015-04-21</date>
+    </from>
+  </deliveryDate>
+  <cancelIfNotDeliveredBy>
+    <date>2015-04-26</date>
+  </cancelIfNotDeliveredBy>
+  <notes>:vendor:010435 SANITARY CARE PRODUCTS ASIA INC.   :tel:8386617/7301-02   :buyer:301 KATRINA ORTIZ       :fax:8388883           :dept:000 *ALL                     :subDpt:000 *ALL                     :terms:045 45 DAYS                            :currency:PHILIPPINE PESO     :discounts:          %:status:3:type:A:dlvLocation:00163 PUREGOLD PRICE CLUB-CANDELARIA :dlvAddress:Maharlika Highway  Brgy. Masin Sur Candelaria  Quezon                 QUEZON  QP  1000                   PHILIPPINES</notes>
+  <lineItems lineItemNumber="1">
+    <itemId>
+      <gtin>4806502351604</gtin>
+    </itemId>
+    <description>:description:SANICARE PTOWEL INTRFOLDD 175S:sku:000019238-8:buyUM:C30:buyCost:     1702.5000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>1585.0275</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="2">
+    <itemId>
+      <gtin>4806502351994</gtin>
+    </itemId>
+    <description>:description:SANICARE UPSIZE BT2P 400SH 12S:sku:000019244-7:buyUM:C08:buyCost:     1192.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>2219.5040</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="3">
+    <itemId>
+      <gtin>4806502359754</gtin>
+    </itemId>
+    <description>:description:FEMME BT 300 2P 1S            :sku:000195712-8:buyUM:C96:buyCost:      744.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>692.6640</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="4">
+    <itemId>
+      <gtin>4806502359761</gtin>
+    </itemId>
+    <description>:description:FEMME BT 300 2P 4S            :sku:000195757-9:buyUM:C24:buyCost:      732.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="3"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>2044.4760</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="5">
+    <itemId>
+      <gtin>4806502359785</gtin>
+    </itemId>
+    <description>:description:FEMME BT 2PLY 300SHTS 12S     :sku:000195760-3:buyUM:C08:buyCost:      720.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="4"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>2681.2800</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="6">
+    <itemId>
+      <gtin>4806502359709</gtin>
+    </itemId>
+    <description>:description:TISYU BT CORELESS 2S          :sku:000195762-3:buyUM:C90:buyCost:      900.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>837.9000</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="7">
+    <itemId>
+      <gtin>4806502359228</gtin>
+    </itemId>
+    <description>:description:TISYU BT CORELESS 10S         :sku:000195884-6:buyUM:C18:buyCost:      864.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>1608.7680</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="8">
+    <itemId>
+      <gtin>4806502359211</gtin>
+    </itemId>
+    <description>:description:TISYU BT CORELESS 20S         :sku:000195887-1:buyUM:C09:buyCost:      846.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="3"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>2362.8780</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="9">
+    <itemId>
+      <gtin>4806502359549</gtin>
+    </itemId>
+    <description>:description:JADE TN COCKTAIL 40S          :sku:000195914-8:buyUM:C96:buyCost:      960.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>893.7600</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="10">
+    <itemId>
+      <gtin>4806502359044</gtin>
+    </itemId>
+    <description>:description:JADE TN PRECUT FOLDED 1000S   :sku:000195919-3:buyUM:C18:buyCost:      949.5000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>883.9845</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="11">
+    <itemId>
+      <gtin>4806502350201</gtin>
+    </itemId>
+    <description>:description:FEMME BT 300 2P 48S           :sku:000202725-9:buyUM:C02:buyCost:      688.0000:vendorSpecDs:  -5.0%-2.0%-4.0%     :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="3"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>1844.7207</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="12">
+    <itemId>
+      <gtin>4806502359433</gtin>
+    </itemId>
+    <description>:description:FEMME BT 300 2P RETAIL PCK 12S:sku:000207676-9:buyUM:C08:buyCost:      744.0000:vendorSpecDs:  -5.0%-2.0%-4.0%     :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="6"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>3989.7450</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="13">
+    <itemId>
+      <gtin>4806502358726</gtin>
+    </itemId>
+    <description>:description:SANICARE PTOWEL JUMBO 2P 2S   :sku:000207856-1:buyUM:C12:buyCost:     1218.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>2267.9160</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="14">
+    <itemId>
+      <gtin>4806502357019</gtin>
+    </itemId>
+    <description>:description:TISYU PTOWEL AP 2P 1S         :sku:000207857-6:buyUM:C32:buyCost:      976.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>908.6560</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="15">
+    <itemId>
+      <gtin>4806502350881</gtin>
+    </itemId>
+    <description>:description:TISYU BT MEGA ROLL 2P 4S      :sku:000220554-3:buyUM:C20:buyCost:     1900.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>1768.9000</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="16">
+    <itemId>
+      <gtin>4806502359594</gtin>
+    </itemId>
+    <description>:description:TISYU FT BOX ART DECO 140 2PLY:sku:000220556-3:buyUM:C36:buyCost:      756.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>1407.6720</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="17">
+    <itemId>
+      <gtin>4806502360040</gtin>
+    </itemId>
+    <description>:description:JADE TN COCKTAIL 300S         :sku:000221127-0:buyUM:C18:buyCost:     1215.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>1131.1650</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="18">
+    <itemId>
+      <gtin>4806502358665</gtin>
+    </itemId>
+    <description>:description:SANICARE BT 600 3P 1S         :sku:000226425-0:buyUM:C96:buyCost:     1723.2000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>1604.2992</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="19">
+    <itemId>
+      <gtin>4806502359723</gtin>
+    </itemId>
+    <description>:description:TISYU PTOWEL KITCHEN AP 4S    :sku:000254954-4:buyUM:C08:buyCost:      952.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>1772.6240</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="20">
+    <itemId>
+      <gtin>4806502350546</gtin>
+    </itemId>
+    <description>:description:SANICARE BT 600 3P 12S        :sku:000261381-4:buyUM:C08:buyCost:     1676.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>3120.7120</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="21">
+    <itemId>
+      <gtin>4806502350430</gtin>
+    </itemId>
+    <description>:description:FEMME BT 300 2P 24S           :sku:000269361-8:buyUM:C06:buyCost:     1038.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>966.3780</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="22">
+    <itemId>
+      <gtin>4806502359440</gtin>
+    </itemId>
+    <description>:description:JADE TN VALUE PCUT FOLDD 1000S:sku:000280868-7:buyUM:C05:buyCost:      208.2500:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="10"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>1938.8080</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="23">
+    <itemId>
+      <gtin>4806502350096</gtin>
+    </itemId>
+    <description>:description:SANICARE COTTON ROLLS 10G     :sku:000288360-4:buyUM:288:buyCost:     1411.2000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>1313.8272</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="24">
+    <itemId>
+      <gtin>4806502359938</gtin>
+    </itemId>
+    <description>:description:CHEERS KITCHEN TOWEL JMBO 2PLY:sku:000304491-4:buyUM:C18:buyCost:     1044.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>971.9640</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="25">
+    <itemId>
+      <gtin>4806502352090</gtin>
+    </itemId>
+    <description>:description:FEMME TRAVEL PACK 40P 2PLY    :sku:000365967-1:buyUM:C72:buyCost:      720.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>670.3200</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="26">
+    <itemId>
+      <gtin>4806502352113</gtin>
+    </itemId>
+    <description>:description:FEMME ECONO BOX 130P 2PLY     :sku:000365968-6:buyUM:C24:buyCost:      840.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>782.0400</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="27">
+    <itemId>
+      <gtin>4806502352328</gtin>
+    </itemId>
+    <description>:description:FEMME KT APTWIN 2PLY 75PULLS  :sku:000366122-9:buyUM:C16:buyCost:      960.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="4"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>3575.0400</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="28">
+    <itemId>
+      <gtin>4806502352311</gtin>
+    </itemId>
+    <description>:description:FEMME TN COCKTAIL 1PLY40P80SHT:sku:000366124-9:buyUM:C48:buyCost:      552.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>513.9120</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="29">
+    <itemId>
+      <gtin>4806502352557</gtin>
+    </itemId>
+    <description>:description:FEMME FT BOX 2PLY 250P 500S   :sku:000366125-4:buyUM:C20:buyCost:     1040.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>968.2400</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="30">
+    <itemId>
+      <gtin>4806502350133</gtin>
+    </itemId>
+    <description>:description:SANICARE COTTON ROLLS 90G     :sku:000366407-1:buyUM:C60:buyCost:     2076.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>1932.7560</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="31">
+    <itemId>
+      <gtin>4806502350171</gtin>
+    </itemId>
+    <description>:description:SANICARE COTTON BUDS CAN 200T :sku:000366426-4:buyUM:C72:buyCost:     1483.2000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>1380.8592</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="32">
+    <itemId>
+      <gtin>4806502359822</gtin>
+    </itemId>
+    <description>:description:SANICARE BT 600 3P 10S        :sku:000410390-2:buyUM:C08:buyCost:     1400.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>2606.8000</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="33">
+    <itemId>
+      <gtin>4806502353332</gtin>
+    </itemId>
+    <description>:description:SANICARE C/BUDS PAPER 200T    :sku:000438246-4:buyUM:144:buyCost:     3888.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>3619.7280</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="34">
+    <itemId>
+      <gtin>4806502160602</gtin>
+    </itemId>
+    <description>:description:SANICARE HRT 170M 850PULLS    :sku:000449253-2:buyUM:C06:buyCost:     1950.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>3630.9000</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="35">
+    <itemId>
+      <gtin>4806502160619</gtin>
+    </itemId>
+    <description>:description:SANICARE HRT 170M 850P W/DSPN :sku:000449254-7:buyUM:C06:buyCost:     2310.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>4301.2200</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="36">
+    <itemId>
+      <gtin>4806502353219</gtin>
+    </itemId>
+    <description>:description:NATURALE LAMINATED 170M 2P W/D:sku:000449303-2:buyUM:C06:buyCost:     2040.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>3798.4800</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+  <lineItems lineItemNumber="37">
+    <itemId>
+      <gtin>4806502353059</gtin>
+    </itemId>
+    <description>:description:TISYU BT MEGA 2PLY 9+1 PROMO  :sku:000466698-6:buyUM:C08:buyCost:     1704.0000:vendorSpecDs:  -5.0%-2.0%          :currency:PHILIPPINE PESO</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice currency="PHP">
+      <monetaryAmount>3172.8480</monetaryAmount>
+    </netPrice>
+    <notes>:skuAllow:                                                              :netTotal:                                       :skuDiscounts:       5580.3277:otherDiscounts:</notes>
+  </lineItems>
+</orders>

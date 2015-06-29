@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<orders creationDate="2015-04-24" documentId="2443365" status="ORIGINAL">
+  <buyer>
+    <gln>4800608880006</gln>
+  </buyer>
+  <seller>
+    <gln>4806502358801</gln>
+  </seller>
+  <deliveryLocation>
+    <gln>4800608880389</gln>
+  </deliveryLocation>
+  <deliveryDate>
+    <from>
+      <date>2015-04-28</date>
+    </from>
+  </deliveryDate>
+  <cancelIfNotDeliveredBy>
+    <date>2015-04-28</date>
+  </cancelIfNotDeliveredBy>
+  <notes>PLEASE ATTACH THIS P.O TO YOUR SALES INVOICE.     DELIVER ON OR BEFORE SHIP DATE.                   PLEASE PICK-UP B.O.   /tnx.               DASMA</notes>
+  <lineItems lineItemNumber="1">
+    <itemId>
+      <gtin>14806502358672</gtin>
+    </itemId>
+    <description>BT 3PLY 4S      SNCRE BT 3PLY 600 4S/24</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1564.70</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="2">
+    <itemId>
+      <gtin>14806502359225</gtin>
+    </itemId>
+    <description>CORELESS 10S    TISYU BT CORLSS CMPCT 10S/18</description>
+    <requestedQuantity ordered="9"/>
+    <netPrice>
+      <monetaryAmount>7165.58</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="3">
+    <itemId>
+      <gtin>14806502358525</gtin>
+    </itemId>
+    <description>F TSUE3PLY TRVL SNCRE FTISUE 3PLY 120S/72</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1061.56</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="4">
+    <itemId>
+      <gtin>14806502351649</gtin>
+    </itemId>
+    <description>ECONO 3P 140S   SNCRE FTISUE ECONO 3P 140S/24</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1371.19</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="5">
+    <itemId>
+      <gtin>14806502359782</gtin>
+    </itemId>
+    <description>12 ROLLS 2PLY   FEMME BT 12 ROLLS 2PLY/8</description>
+    <requestedQuantity ordered="12"/>
+    <netPrice>
+      <monetaryAmount>7961.76</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="6">
+    <itemId>
+      <gtin>14806502359768</gtin>
+    </itemId>
+    <description>2PLY 4S         FEMME BT 2PLY 4S/24</description>
+    <requestedQuantity ordered="14"/>
+    <netPrice>
+      <monetaryAmount>9443.53</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="7">
+    <itemId>
+      <gtin>04806502359754</gtin>
+    </itemId>
+    <description>2PLY 1S         FEMME BT 2PLY 1S/96</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice>
+      <monetaryAmount>1371.19</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="8">
+    <itemId>
+      <gtin>04806502353080</gtin>
+    </itemId>
+    <description>BOX3PLY 60PULLS SNCRE FTISUE BX3PLY 60PULLS/36</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>928.87</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="9">
+    <itemId>
+      <gtin>14806502350055</gtin>
+    </itemId>
+    <description>CTTN BALLS 50S  SNCRE CTTN BALLS 50S/108</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1204.21</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="10">
+    <itemId>
+      <gtin>14806502350079</gtin>
+    </itemId>
+    <description>CTTN BALLS 150S SNCRE CTTN BALLS 150S/72</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>2242.56</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="11">
+    <itemId>
+      <gtin>14806502350093</gtin>
+    </itemId>
+    <description>CTTN ROLLS 10GR SNCRE CTTN ROLLS 10GR/288</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1300.42</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="12">
+    <itemId>
+      <gtin>14806502350116</gtin>
+    </itemId>
+    <description>CTTN ROLLS 45GR SNCRE CTTN ROLLS 45GR/96</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1680.81</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="13">
+    <itemId>
+      <gtin>14806502359706</gtin>
+    </itemId>
+    <description>CORELESS 2P TWN TISYU B CORELESS 2P TWN /90</description>
+    <requestedQuantity ordered="4"/>
+    <netPrice>
+      <monetaryAmount>3251.05</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="14">
+    <itemId>
+      <gtin>14806502359218</gtin>
+    </itemId>
+    <description>CORELESS 2P 20S TISYU BT CORELESS 2P 20S/9</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice>
+      <monetaryAmount>1527.99</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="15">
+    <itemId>
+      <gtin>14806502351694</gtin>
+    </itemId>
+    <description>MEGA 3P 1000SH  TISYU BT MEGA 3P 1000SH 8S/8</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1467.02</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="16">
+    <itemId>
+      <gtin>14806502358778</gtin>
+    </itemId>
+    <description>HDYPCK 40P2PLY  SNCRE FTISUE HDYPCK 40P2PLY/96</description>
+    <requestedQuantity ordered="3"/>
+    <netPrice>
+      <monetaryAmount>1725.04</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="17">
+    <itemId>
+      <gtin>04806502352090</gtin>
+    </itemId>
+    <description>TPCK 2PLY40PLS  FEMME FTISUE TPCK 2PLY40PLS/72</description>
+    <requestedQuantity ordered="4"/>
+    <netPrice>
+      <monetaryAmount>2653.92</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="18">
+    <itemId>
+      <gtin>04806502352113</gtin>
+    </itemId>
+    <description>EBX 2PLY130PLS  FEMME FTISUE EBX 2PLY130PLS/24</description>
+    <requestedQuantity ordered="3"/>
+    <netPrice>
+      <monetaryAmount>2322.18</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="19">
+    <itemId>
+      <gtin>14086502352585</gtin>
+    </itemId>
+    <description>BGTRVL 70PL 2P  FEMME FTISUE BGTRVL 70PL 2P/48</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice>
+      <monetaryAmount>1857.74</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="20">
+    <itemId>
+      <gtin>14806502352639</gtin>
+    </itemId>
+    <description>200SH2P100S4SRF TISYU BT TG200SH 2P100S4SRF/24</description>
+    <requestedQuantity ordered="3"/>
+    <netPrice>
+      <monetaryAmount>1658.70</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="21">
+    <itemId>
+      <gtin>14806502352394</gtin>
+    </itemId>
+    <description>CLNSING 15S     SNCRE BWPES CLNSING 15S/60</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1382.25</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="22">
+    <itemId>
+      <gtin>14806502352387</gtin>
+    </itemId>
+    <description>CLNSING 80S     SNCRE BWPES CLNSING 80S/24</description>
+    <requestedQuantity ordered="2"/>
+    <netPrice>
+      <monetaryAmount>3759.72</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="23">
+    <itemId>
+      <gtin>14806502351311</gtin>
+    </itemId>
+    <description>HK10PLS 3PLY 6S SNCRE FTISUE H10PLS 3PLY 6S/48</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1017.33</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="24">
+    <itemId>
+      <gtin>04806502350034</gtin>
+    </itemId>
+    <description>200TIPS PLSTM   SNCRE CTTN BDS 200S PLSTM/144</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>2023.61</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="25">
+    <itemId>
+      <gtin>04806502160541</gtin>
+    </itemId>
+    <description>400TIPS PLSTM   SNCRE CTTN BDS 400S PLSTM/72</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1977.17</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="26">
+    <itemId>
+      <gtin>04806502161333</gtin>
+    </itemId>
+    <description>BX 2PLY 75PLS   FEMME FTISUE BX 2PLY 75PLS/48</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1050.51</monetaryAmount>
+    </netPrice>
+  </lineItems>
+  <lineItems lineItemNumber="27">
+    <itemId>
+      <gtin>04806502161241</gtin>
+    </itemId>
+    <description>UNSCNTD 80S     SNCRE BWPES UNSCNTD 80S/16</description>
+    <requestedQuantity ordered="1"/>
+    <netPrice>
+      <monetaryAmount>1208.08</monetaryAmount>
+    </netPrice>
+  </lineItems>
+</orders>
