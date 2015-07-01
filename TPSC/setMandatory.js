@@ -57,6 +57,16 @@ function setMandatory(type, name, line) {
 		}
 	}
 
+	if(name == 'custrecord_priority') {
+		var newDate = new Date();
+		var thisDate;
+		if(nlapiGetFieldValue('custrecord_priority') == 2) {  //means its urgent			
+			thisDate = newDate.setDate(newDate.getDate()+4);
+		}
+		thisDate = newDate.getDate() + '/' + (Number(newDate.getMonth())+1) + '/' + newDate.getFullYear();
+		nlapiSetFieldValue('custrecord_start_date', thisDate);
+	}
+
 }
 
 

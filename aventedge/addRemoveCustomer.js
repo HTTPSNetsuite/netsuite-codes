@@ -12,7 +12,7 @@ function addRemoveCustomer(request, response) {
         var newId = nlapiGetRecordId();
         if(newId === '') return;
         if (type == "view") {
-            var create_button = "window.location = '" + nlapiResolveURL('SUITELET', 'customscript_target_list', 'customdeploy1') + "&internalid=" + newId +"'";
+            var create_button = "window.location = '" + nlapiResolveURL('SUITELET', 'customscript_target_list', 'customdeploy1') + "&internalid=" + newId +"&gss=1&ibe=1&chkdsk=1'";
                 form.addButton("custpage_send_email", "Add/Remove Customer(s) Nes", create_button);
         }
     } catch (e) {
@@ -23,4 +23,3 @@ function addRemoveCustomer(request, response) {
         }
     }   
 }
-

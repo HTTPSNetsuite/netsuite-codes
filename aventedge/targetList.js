@@ -11,6 +11,7 @@ function targetList(request,response)
         
         var form = nlapiCreateForm(nlapiLookupField('customrecord_ms_target_list', request.getParameter('internalid'), 'name'), true);
 
+        form.addSubmitButton('Submit');
         var form_ind = form.addField('industry', 'select', 'Industries', 'customlist1'); //load all industry in custom list
         var form_name = form.addField('inp_name', 'text', 'Name');
         var form_jobTitle = form.addField('job_title', 'text', 'Job Title');
@@ -20,9 +21,20 @@ function targetList(request,response)
         form.getField('hidden_field').setDisplayType('hidden');
 
 
+        //we will make a way to access the states Netsuite dont allow us to access
+        var record = nlapiLoadRecord('contact', '102873');
+        var field = record.getField('custentity33');
+        options = field.getSelectOptions();
+        var state = form.addField('state', 'select', 'State').setLayoutType('startrow').setDisplaySize(120);
+        state.addSelectOption('', '');
+        var stateCount = 0;
+        for (var i in options) {
+            var option = options[i];
+            state.addSelectOption(stateCount, option.getText());
+            stateCount++;
+        }
         //will add a custom country json object here --------------------------
-
-        var country = form.addField('country', 'select', 'Country');
+        var country = form.addField('country', 'select', 'Country').setLayoutType('midrow').setDisplaySize(150);
         country.addSelectOption('', '');
         //loop through each country
         var nsCountry = nsCountries();
@@ -35,27 +47,29 @@ function targetList(request,response)
 
         var form_email = form.addField('inp_email', 'email', 'Email');
         var form_listcode = form.addField('list_codes', 'select', 'List Codes', 'customlist6'); //load all list codes in custom list
-
+        var depart = form.addField('depart', 'select', 'Department', 'customlist205'); //add department lists
 
 
         //will add a custom Global Subscription Status here --------------------------
 
-        var gss = form.addField('gss', 'select', 'Global Subscription Status');
-        gss.addSelectOption('', 'All');
+        var gss = form.addField('gss', 'select', 'Global Subscription Status');        
         gss.addSelectOption(1, 'Soft Opt-In');
         gss.addSelectOption(2, 'Soft Opt-Out');
         gss.addSelectOption(3, 'Confirmed Opt-In');    
-        gss.addSelectOption(4, 'Confirmed Opt-Out');    
+        gss.addSelectOption(4, 'Confirmed Opt-Out');
+        gss.addSelectOption('', 'All');
+        gss.setDefaultValue(request.getParameter('gss'));
 
         //-----------------------------------------------------------------------
 
 
         //will add a custom Is Bounced Email here --------------------------
 
-        var ibe = form.addField('ibe', 'select', 'Is Bounced Email');
-        ibe.addSelectOption('', 'All');
+        var ibe = form.addField('ibe', 'select', 'Is Bounced Email');  
+        ibe.addSelectOption('F', 'No');        
         ibe.addSelectOption('T', 'Yes');
-        ibe.addSelectOption('F', 'No');  
+        ibe.addSelectOption('', 'All');
+        ibe.setDefaultValue(request.getParameter('ibe'));
 
         //-----------------------------------------------------------------------
 
@@ -65,34 +79,35 @@ function targetList(request,response)
         var dm = form.addField('dm', 'select', 'Decision Maker');
         dm.addSelectOption('', 'All');
         dm.addSelectOption('T', 'Yes');
-        dm.addSelectOption('F', 'No');   
+        dm.addSelectOption('F', 'No');
 
         //-----------------------------------------------------------------------
 
      
 
        //Add Client script 'targetListClient' to suitelet form
-
        form.setScript('customscript_target_list_client');
 
 
 
         //add sublist on the form
         var sublist = form.addSubList('targetlist', 'list', null, 'target_list');
-        sublist.addField('counter', 'text', 'Counter');
+        sublist.addField('counter', 'text', '');
         sublist.addField('selected', 'checkbox', 'Selected');
         sublist.addField('industry', 'text', 'Industry');
         sublist.addField('entname', 'text', 'Name');
         sublist.addField('job_title', 'text', 'Job Title');
         sublist.addField('company_name', 'text', 'Company Name');
+        sublist.addField('state', 'text', 'State');
         sublist.addField('countryname', 'text', 'Country');
         sublist.addField('emailadd', 'text', 'Email');
         sublist.addField('listcodes', 'text', 'List Codes');
+        sublist.addField('department', 'text', 'Department');
         sublist.addField('intid', 'text', 'Internal Id');
         sublist.addMarkAllButtons();
-        /*sublist.addField('lbl_gss', 'text', 'Global Subscription Status');
+        sublist.addField('lbl_gss', 'text', 'Global Subscription Status');
         sublist.addField('lbl_ibe', 'text', 'Is Bounced Email');
-        sublist.addField('lbl_dm', 'text', 'Decision Maker');*/
+        sublist.addField('lbl_dm', 'text', 'Decision Maker');
 
 
         //get all the value of filters
@@ -107,6 +122,8 @@ function targetList(request,response)
         var ibe_name = replaceNull(request.getParameter('ibe'));
         var dm_name = replaceNull(request.getParameter('dm'));
         var page = (request.getParameter('pagi') == 'null') ? '': request.getParameter('pagi');
+        var departm = replaceNull(request.getParameter('depart'));
+        var st = replaceNull(request.getParameter('state'));
         //make an array of objects for convinience
         var arrayOfFilters = {};
         arrayOfFilters['industry'] = industry; 
@@ -119,6 +136,8 @@ function targetList(request,response)
         arrayOfFilters['gss_name'] = gss_name; 
         arrayOfFilters['ibe_name'] = ibe_name; 
         arrayOfFilters['dm_name'] = dm_name;
+        arrayOfFilters['departm'] = departm;
+        arrayOfFilters['state'] = st;
 
 
 
@@ -133,8 +152,10 @@ function targetList(request,response)
         gss.setDefaultValue(gss_name);
         ibe.setDefaultValue(ibe_name);
         dm.setDefaultValue(dm_name);
+        depart.setDefaultValue(departm);
+        state.setDefaultValue(st);
         //validate whether it will perform search or not
-        if(validateFilters(arrayOfFilters) == true) {
+        if(validateFilters(arrayOfFilters) == true && request.getParameter('chkdsk') == 0) {
             //create a nlobjFilter
             var createFilter = [];
             var createResult = [];
@@ -145,6 +166,11 @@ function targetList(request,response)
             createResult.push(new nlobjSearchColumn('country'));
             createResult.push(new nlobjSearchColumn('email'));
             createResult.push(new nlobjSearchColumn('custentity4'));
+            createResult.push(new nlobjSearchColumn('custentity_department'));
+            createResult.push(new nlobjSearchColumn('globalsubscriptionstatus'));
+            createResult.push(new nlobjSearchColumn('custentity8'));
+            createResult.push(new nlobjSearchColumn('custentity20'));
+            createResult.push(new nlobjSearchColumn('custentity33'));
             for(var filCounter in arrayOfFilters) {
                 if(arrayOfFilters[filCounter] != '') {
                     //create filter here
@@ -161,6 +187,9 @@ function targetList(request,response)
                         case 'company_name':
                             createFilter.push(new nlobjSearchFilter('company', null, 'is', arrayOfFilters[filCounter]));
                         break;
+                        case 'state':
+                            createFilter.push(new nlobjSearchFilter('custentity33', null, 'is', arrayOfFilters[filCounter]));
+                        break;
                         case 'country_name':
                             createFilter.push(new nlobjSearchFilter('country', null, 'is', arrayOfFilters[filCounter]));
                         break;
@@ -170,43 +199,42 @@ function targetList(request,response)
                         case 'list_codes':
                             createFilter.push(new nlobjSearchFilter('custentity4', null, 'is', arrayOfFilters[filCounter]));
                         break;
+                        case 'departm':
+                            createFilter.push(new nlobjSearchFilter('custentity_department', null, 'is', arrayOfFilters[filCounter]));
+                        break;
+                        case 'gss_name':
+                            createFilter.push(new nlobjSearchFilter('globalsubscriptionstatus', null, 'is', arrayOfFilters[filCounter]));
+                        break;
+                        case 'ibe_name':
+                            createFilter.push(new nlobjSearchFilter('custentity8', null, 'is', arrayOfFilters[filCounter]));
+                        break;
+                        case 'dm_name':
+                            createFilter.push(new nlobjSearchFilter('custentity20', null, 'is', arrayOfFilters[filCounter]));
+                        break;
                     }
                 }
             }
 
             //create custom search
-            var SLICE_LIMIT = 1000;
             var search = nlapiCreateSearch('contact', createFilter, createResult);
             var resultset = search.runSearch();
-            var paginate = (request.getParameter('pagi') == 'null' || request.getParameter('pagi') == '') ? 0:((request.getParameter('pagi')*70)-70);
+            var paginate = (request.getParameter('pagi') == 'null' || request.getParameter('pagi') == '' || request.getParameter('pagi') <= 0) ? 0:((request.getParameter('pagi')*50)-50);
             var results = [];
 
-            do {
-                var subset = resultset.getResults(paginate, paginate+1000);
-                if ( !subset ) break;
+            var subset = resultset.getResults(paginate, paginate+50);
+            if(subset != null){
                 subset.forEach( function (row) {
                     results.push(row);
-                paginate++;
                 });
-            } while (subset.length === SLICE_LIMIT);
-
-            if(results.length >= 70) {
-                var pagi = form.addField('pagi', 'select', 'Select option to navigate record');
-                var pagiNum = Math.ceil(results.length / 70);
-                pagi.addSelectOption('', 'Please select option to navigate');
-                var count = 1;
-                for(var c = 1; c <= pagiNum; c++) {
-                    pagi.addSelectOption(c, count + ' to ' + c*70);                    
-                    count = c*70
-                }
-
-                pagi.setDefaultValue(3);
             }
+            if(results.length == 50) {
+                form.addPageLink('crosslink', 'Next', 'https://system.sandbox.netsuite.com/app/site/hosting/scriptlet.nl?script=155&deploy=1&internalid='+request.getParameter('internalid')+'&industry='+industry+'&inp_name='+inp_name+'&job_title='+job_title+'&company_name='+company_name+'&country='+country_name+'&inp_email='+inp_email+'&list_codes='+list_codes+'&gss='+gss_name+'&ibe='+ibe_name+'&dm='+dm_name+'&depart='+departm+'&chkdsk=0&pagi='+(((paginate+50)/50)+1)+'&state='+st);
+                form.addPageLink('crosslink', 'Prev', 'https://system.sandbox.netsuite.com/app/site/hosting/scriptlet.nl?script=155&deploy=1&internalid='+request.getParameter('internalid')+'&industry='+industry+'&inp_name='+inp_name+'&job_title='+job_title+'&company_name='+company_name+'&country='+country_name+'&inp_email='+inp_email+'&list_codes='+list_codes+'&gss='+gss_name+'&ibe='+ibe_name+'&dm='+dm_name+'&depart='+departm+'&chkdsk=0&pagi='+(((paginate+50)/50)-1)+'&state='+st);
+            } 
 
-
-            var i = 1;
-            for(var x in results) {
-                if(i <= 70) {
+            if(results.length > 0) {
+                var i = 1;
+                for(var x in results) {
                     //validate if this contact has record
                     var targetFilter = [ new nlobjSearchFilter('custrecord_tlc_target_list', null, 'is', request.getParameter('internalid')), 
                                          new nlobjSearchFilter('custrecord_tlc_customer', null, 'is', results[x].getId()) ];
@@ -216,23 +244,29 @@ function targetList(request,response)
                     }
 
                     // loop through each nlobjSearchResult object
-                    sublist.setLineItemValue('counter', i, i.toString());
+                    sublist.setLineItemValue('counter', i, (paginate + 1).toString());
                     sublist.setLineItemValue('industry', i, results[x].getValue('custentity1', 'parentCustomer'));
                     sublist.setLineItemValue('entname', i, results[x].getValue('entityid'));
                     sublist.setLineItemValue('job_title', i, results[x].getValue('title'));
                     sublist.setLineItemValue('company_name', i, results[x].getValue('company'));
+                    sublist.setLineItemValue('state', i, results[x].getValue('custentity33'));
                     sublist.setLineItemValue('countryname', i, results[x].getValue('country'));
                     sublist.setLineItemValue('emailadd', i, results[x].getValue('email'));
                     sublist.setLineItemValue('listcodes', i, results[x].getValue('custentity4'));
+                    sublist.setLineItemValue('department', i, results[x].getValue('custentity_department'));
                     sublist.setLineItemValue('intid', i, results[x].getId());
+                    sublist.setLineItemValue('lbl_gss', i, (results[x].getValue('globalsubscriptionstatus') == 'F')?'No':'Yes');
+                    sublist.setLineItemValue('lbl_ibe', i, (results[x].getValue('custentity8') == 'F')?'No':'Yes');
+                    sublist.setLineItemValue('lbl_dm', i, (results[x].getValue('custentity20') == 'F')?'No':'Yes');
+
+                    i++; 
+                    paginate++
                 }
-                i++;
-            }
+            }   
 
         }
         
 
-       form.addSubmitButton('Submit');
 
        response.writePage(form);
     } else {
